@@ -3,16 +3,18 @@
 @use "../top/sticky";
 
 // Any layer
-.layer_d4b6c5 {
+.layer__960e4 {
     opacity: 1 !important;
 
     // Settings layer
-    + .layer_d4b6c5 {
+    + .layer__960e4 {
         background: unset;
         backdrop-filter: blur(2px) brightness(0.7);
         align-items: center;
+        //Stop any elements from other layers from showing through
+        z-index: 100;
 
-        div:has(> .standardSidebarView_c25c6d) {
+        div:has(> .standardSidebarView__23e6b) {
             display: flex;
             justify-content: center;
             width: 100%;
@@ -21,7 +23,7 @@
 }
 
 // Settings modal
-.standardSidebarView_c25c6d {
+.standardSidebarView__23e6b {
     @include box.highlight;
     padding: 10px;
     left: unset;
@@ -33,22 +35,22 @@
         top: 22px + 20px;
     }
 
-    .sidebarRegion_c25c6d {
+    .sidebarRegion__23e6b {
         flex: 0 0 var(--custom-standard-sidebar-view-sidebar-total-width);
     }
-    .sidebarRegionScroller_c25c6d {
+    .sidebarRegionScroller__23e6b {
         background: $medium;
     }
-    .sidebar_c25c6d {
+    .sidebar__23e6b {
         padding: 0 6px 0 0;
 
         // Item
-        :is(.item_a0.item_a0.item_a0, .item_a0.item_a0.item_a0:hover) {
+        :is(.item_b3f026.item_b3f026.item_b3f026, .item_b3f026.item_b3f026.item_b3f026:hover) {
             @include sticky.box;
             padding: 0;
 
-            &.selected_a0::before,
-            &.selected_a0::after {
+            &.selected_b3f026::before,
+            &.selected_b3f026::after {
                 background: $light;
             }
 
@@ -61,19 +63,19 @@
         }
 
         // Separator
-        .separator_a0 {
+        .separator_b3f026 {
             background: unset;
         }
 
         // Group header
-        .header_a0,
+        .header_b3f026,
         // Socials
-        .link_c44e94 {
+        .link__7df54 {
             color: $black;
         }
 
         // Group header category
-        .headerText_a0 {
+        .headerText_b3f026 {
             display: flex;
 
             .category-CysNYv {
@@ -87,12 +89,12 @@
         }
 
         // Version info
-        .info_c5a741 .line_c5a741 {
+        .info__2debe .line__2debe {
             color: $black !important;
         }
     }
 
-    .contentRegionScroller_c25c6d {
+    .contentRegionScroller__23e6b {
         @include box.sync;
     }
 }

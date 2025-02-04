@@ -1,41 +1,46 @@
 @use "../top/vars" as *;
 
 // Servers list
-.wrapper_fea3ef {
+.wrapper_ef3116 {
     background: unset;
 
     // Home and favourite icons
-    @at-root .wrapper_f90abb {
+    @at-root .wrapper__6e9f8 {
         &:is(&, :hover) {
-            .childWrapper_f90abb {
+            .childWrapper__6e9f8:not(.tutorialContainer__1f388 .childWrapper__6e9f8) {
                 background: $background;
                 color: $light;
             }
-        }
 
-        // Home icon
-        .tutorialContainer_f9623d.tutorialContainer_f9623d .childWrapper_f90abb {
-            background: url("https://minidiscordthemes.github.io/Pesterchum/img/home.avif") center/80% no-repeat $background;
-            color: transparent;
+            //Home icon
+            .childWrapper__6e9f8 {
+                background: url("https://minidiscordthemes.github.io/Pesterchum/img/home.avif") center/80% no-repeat $background;
+                color: transparent;
+            }
         }
     }
 
     // New and discover icons
-    .circleIconButton_db6521 {
+    .circleIconButton__5bc7e {
         color: $light;
+    }
+
+    //Discover icon background fix
+    .footer__214dc {
+        background: unset;
     }
 
     // Icon backgrounds
     .childWrapper_a6ce15,
     .wrapper__8436d:hover .childWrapper_a6ce15,
     .wrapper__8436d.selected_ae80f7 .childWrapper_a6ce15,
-    .circleIconButton_db6521 {
+    .circleIconButton__5bc7e {
         background-color: $background;
     }
 
     // Folders
-    .expandedFolderBackground_bc7085,
-    .folder_bc7085 {
+    .expandedFolderBackground__48112,
+    .folder__48112 {
         background: $background;
     }
 }

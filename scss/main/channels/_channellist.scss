@@ -8,34 +8,34 @@
 }
 
 // Server channels list
-.sidebar_a4d4d9 {
+.sidebar_c48ade {
     // Voice users collapsed
-    .overlap_cdc675 .avatar_cdc675,
-    .moreContainer_ac3629 {
+    .overlap__07f91 .avatar__07f91,
+    .moreContainer__55bab {
         @include box.black;
         border-radius: $size-max;
     }
 
     // Unread bars
-    .bar_eba0ba {
+    .bar__7aaec {
         @include box.black;
         border-radius: $size-max;
     }
 
     // Voice user limit
-    .wrapper_a5bc92 {
-        .users_a5bc92,
-        .total_a5bc92 {
+    .wrapper__260e1 {
+        .users__260e1,
+        .total__260e1 {
             background: unset;
         }
-        .total_a5bc92:after {
+        .total__260e1:after {
             content: "/";
             border: 0;
         }
     }
 
     // Show all voice channels
-    .voiceChannelsButton_a08117:hover {
+    .voiceChannelsButton__29444:hover {
         background: unset;
     }
 }

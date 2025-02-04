@@ -20,7 +20,7 @@
     }
 
     // Icon
-    .avatar_c51b4e {
+    .avatar__44b0c {
         background: $dark;
     }
 
@@ -44,12 +44,12 @@
 
             // Send friend request
             // Send message
-            .contents_dd4f85 {
+            .contents__201d5 {
                 @include replace.text("Pester");
             }
 
             // Friend request sent
-            &:disabled .contents_dd4f85 {
+            &:disabled .contents__201d5 {
                 @include replace.text("Chum request sent");
             }
         }
@@ -83,13 +83,13 @@
         .tabBar_b9fccc {
             gap: 10px;
 
-            .item_a0 {
+            .item_b3f026 {
                 @include box.highlight;
                 color: $black;
                 padding: 8px;
                 box-sizing: border-box;
 
-                &.selected_a0,
+                &.selected_b3f026,
                 &:hover {
                     border-bottom-color: $dark;
                 }
@@ -126,25 +126,25 @@
 
     // Activity
     .activity__20c1e {
-        .headerText_d5089b {
+        .headerText__2ef49 {
             color: $grey;
         }
-        .activityName_d5089b,
-        .content_d5089b,
-        .details_d5089b,
-        .name_d5089b,
-        .nameNormal_d5089b,
-        .nameWrap_d5089b {
+        .activityName__2ef49,
+        .content__2ef49,
+        .details__2ef49,
+        .name__2ef49,
+        .nameNormal__2ef49,
+        .nameWrap__2ef49 {
             color: $black;
         }
     }
 
     // Roles
-    .role_f9575e {
+    .role_dfa8b6 {
         @include box.sync;
         box-sizing: content-box;
         padding: 0;
-        .roleNameOverflow_e4010c {
+        .roleNameOverflow__48c1c {
             color: $foreground;
         }
     }
@@ -167,14 +167,14 @@
     }
 
     // Connected accounts
-    .connectedAccountContainer_f3eb60 {
+    .connectedAccountContainer_e6abe8 {
         @include box.sync;
     }
 
     // Server or friend
-    .listRow_e4be58 {
-        .listName_e4be58,
-        .guildNick_b26403 {
+    .listRow__9d78f {
+        .listName__9d78f,
+        .guildNick_aafe31 {
             color: $grey;
         }
     }

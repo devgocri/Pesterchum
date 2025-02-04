@@ -2,13 +2,13 @@
 @use "../top/box";
 
 // Forum main panel
-.container_a6d69a {
+.container_f369db {
     gap: 16px;
     background: unset;
 
     // Forum
-    .list_a6d69a,
-    .grid_a6d69a {
+    .list_f369db,
+    .grid_f369db {
         @include box.default;
 
         & > div:first-child {
@@ -17,35 +17,35 @@
         }
 
         // Post maker and posts
-        .mainCard_a6d69a {
+        .mainCard_f369db {
             @include box.sync;
 
             // Opened post
-            &.isOpen_a57509 {
+            &.isOpen__9a337 {
                 border-color: $light;
             }
 
             // Pinned post
-            .pinIcon_f451cd {
+            .pinIcon__08166 {
                 background: $dark;
             }
 
             // Gallery mode text
-            .contentPreview_a57509 {
+            .contentPreview__9a337 {
                 background: unset;
                 border: none;
 
-                .textContentFooter_a57509 {
+                .textContentFooter__9a337 {
                     background: linear-gradient(to top, $background, transparent);
                 }
             }
         }
-        .container_d331f1:hover {
+        .container_faa96b:hover {
             transform: none;
         }
 
         // Post maker results
-        .matchingPostsRow_a6d69a {
+        .matchingPostsRow_f369db {
             background: unset;
             --text-normal: #{$black};
 
@@ -57,25 +57,25 @@
         }
 
         // Post guidelines
-        .container_ddbb27 {
+        .container_ca49a1 {
             @include box.sync;
-            .descriptionContainer_ddbb27 {
+            .descriptionContainer_ca49a1 {
                 background: unset;
             }
         }
 
         // Filter by tag
-        .tagsContainer_a6d69a {
+        .tagsContainer_f369db {
             // Divider
-            .divider_a6d69a {
+            .divider_f369db {
                 width: $size-border;
                 background: $dark;
             }
 
             // Sort and view
             // See all tags
-            .sortDropdown_a6d69a,
-            .tagsButton_a6d69a {
+            .sortDropdown_f369db,
+            .tagsButton_f369db {
                 @include box.default;
                 --interactive-normal: #{$black};
 
@@ -83,14 +83,14 @@
                     border-color: $light;
                 }
             }
-            .tagsButton_a6d69a {
+            .tagsButton_f369db {
                 padding: 0;
 
                 // Tag counter
-                .countContainer_a6d69a {
+                .countContainer_f369db {
                     background: unset;
                 }
-                .countText_a6d69a {
+                .countText_f369db {
                     color: $black;
                     font-size: 14px;
                     line-height: 18px;
@@ -101,15 +101,15 @@
 }
 
 // Tags
-.pill_c993da.pill_c993da {
+.pill_a2c9e8.pill_a2c9e8 {
     @include box.default;
     --text-normal: #{$black};
 
-    &.clickable_c993da:not(.disabled_c993da):hover {
+    &.clickable_a2c9e8:not(.disabled_a2c9e8):hover {
         background: $medium;
     }
 
-    &.selected_c993da.selected_c993da {
+    &.selected_a2c9e8.selected_a2c9e8 {
         border-color: $light;
         background: $medium;
     }
@@ -117,57 +117,57 @@
 
 // Unset forum minimum width
 .grid-21dB-S > div:first-child,
-.headerRow_a6d69a,
-.list_a6d69a > div:first-child {
+.headerRow_f369db,
+.list_f369db > div:first-child {
     min-width: unset;
     box-sizing: border-box;
 }
 
 // Forum post info
-.scrollerInner_e2e187 {
+.scrollerInner__36d07 {
     overflow: unset;
-    .container_b385c8 {
+    .container__34c2c {
         background: unset;
         pointer-events: none;
         border-top: 0;
         top: 0;
 
-        .reactButtons_b385c8,
-        .buttons_b385c8 {
+        .reactButtons__34c2c,
+        .buttons__34c2c {
             pointer-events: all;
         }
     }
-    .divider_af45f8 {
+    .divider_ee23ac {
         display: none;
     }
 
     // Post action buttons
-    .addReactButton_b385c8,
-    .buttonInner_b385c8 {
+    .addReactButton__34c2c,
+    .buttonInner__34c2c {
         @include box.default;
         color: $black;
 
-        &.active_f61c73 {
+        &.active_f8896c {
             @include box.highlight;
         }
 
         &:hover,
-        &:active .icon_f61c73,
-        &.active_f61c73 .icon_f61c73,
-        &:hover .icon_f61c73 {
+        &:active .icon_f8896c,
+        &.active_f8896c .icon_f8896c,
+        &:hover .icon_f8896c {
             color: $black;
         }
     }
 
     // Reaction
-    .reaction_f61c73 {
+    .reaction_f8896c {
         @include box.default;
 
-        &.reactionMe_f61c73 {
+        &.reactionMe_f8896c {
             @include box.highlight;
         }
 
-        .reactionCount_f61c73 {
+        .reactionCount_f8896c {
             color: $black;
         }
     }

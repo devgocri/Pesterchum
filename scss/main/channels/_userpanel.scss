@@ -1,32 +1,32 @@
 @use "../../top/vars" as *;
 @use "../../top/box";
 
-.panels_a4d4d9 {
-    .panel_bf1a22,
-    .container_adcaac,
-    .container_b2ca13,
-    .wrapper_c721cc {
+.panels_c48ade {
+    .panel__5dec7,
+    .container_e131a9,
+    .container__37e49,
+    .wrapper__0d616 {
         background: unset;
     }
 
     // Quest progress
-    .contentWrapper_c721cc,
+    .contentWrapper__0d616,
     .postEnrollmentBackground_c3427e {
         background: $background !important;
     }
 
     // Now playing
-    .panel_bf1a22 {
+    .panel__5dec7 {
         border-bottom: 0;
     }
 
     // Voice controls
-    .container_adcaac {
+    .container_e131a9 {
         border-bottom: 0;
 
         // Activity buttons
-        .actionButtons_adcaac {
-            .button_adcaac:not(.disabledButtonWrapper_dd4f85) {
+        .actionButtons_e131a9 {
+            .button_e131a9:not(.disabledButtonWrapper__201d5) {
                 @include box.default;
                 height: 36px;
                 color: $background;
@@ -34,10 +34,10 @@
             }
 
             // Disabled button
-            .disabledButtonWrapper_dd4f85 {
+            .disabledButtonWrapper__201d5 {
                 height: 36px;
 
-                .contents_dd4f85 {
+                .contents__201d5 {
                     display: flex;
                     align-items: center;
                 }
@@ -46,10 +46,10 @@
     }
 
     // User controls
-    .container_b2ca13 {
+    .container__37e49 {
         margin-bottom: 0;
 
-        .avatarWrapper_b2ca13 {
+        .avatarWrapper__37e49 {
             margin: 0;
             padding-left: 0;
         }

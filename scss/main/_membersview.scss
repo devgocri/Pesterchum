@@ -2,7 +2,7 @@
 @use "../top/box";
 
 // Specific to members view header
-.header_d20375 {
+.header_c791b2 {
     box-shadow: none;
 
     + .scroller_d20375 {
@@ -11,7 +11,7 @@
         left: 16px;
         width: calc(100% - 28px);
 
-        .content_a7d72e.content_a7d72e.content_a7d72e {
+        .content_f75fb0.content_f75fb0.content_f75fb0 {
             padding: 0;
             @include box.sync;
         }
@@ -19,6 +19,6 @@
 }
 
 // Server members view
-.mainTableContainer_e23072 {
+.mainTableContainer__09a38 {
     background: $background;
 }

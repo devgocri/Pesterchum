@@ -2,35 +2,35 @@
 @use "../top/box";
 
 // Server guide
-.scrollerBase_c49869:has(.homeContainer_e85cee) {
+.scrollerBase_d125d2:has(.homeContainer__7449f) {
     @include box.default;
     margin: 16px;
 
-    .row_b53f4f,
-    .sidebarCardWrapper_e85cee {
+    .row_d13feb,
+    .sidebarCardWrapper__7449f {
         @include box.sync;
     }
 }
 
 // Channels and roles
-.header_f1fd9c:has(path[d^="M18.5 23"]) + .container_f1fd9c.container_f1fd9c.container_f1fd9c {
+.header__0b563:has(path[d^="M18.5 23"]) + .container__0b563.container__0b563.container__0b563 {
     @include box.default;
     margin: 16px;
     padding: 0;
     gap: 0;
 
     // Background
-    .emptyPage_c6b11b,
+    .emptyPage__5d7c9,
     .scrollerContainer_c6b11b,
     .container_c2efea {
         background: unset;
     }
 
     // Tabs
-    .tabBar_f1fd9c {
+    .tabBar__0b563 {
         border-bottom: 0;
 
-        .tabBarItem_f1fd9c {
+        .tabBarItem__0b563 {
             padding: 2px 8px;
         }
 
@@ -50,23 +50,23 @@
     }
 
     // Choose all that apply
-    .helpText_c6b11b {
+    .helpText__5d7c9 {
         --text-muted: #{$black};
     }
 
     // Customisation question group
-    .prompt_c6b11b {
+    .prompt__5d7c9 {
         border: none;
         background: unset;
 
         // Option
-        .optionButtonWrapper_bd5e1f {
+        .optionButtonWrapper__270d7 {
             @include box.sync;
 
-            &.selected_bd5e1f {
+            &.selected__270d7 {
                 @include box.highlight($background);
 
-                .checkIcon_bd5e1f {
+                .checkIcon__270d7 {
                     background: $light;
 
                     path {
@@ -78,7 +78,7 @@
     }
 
     // Profile preview
-    .profileCard_c6b11b {
+    .profileCard__5d7c9 {
         @include box.sync;
     }
 
@@ -88,69 +88,69 @@
     }
 
     // Channel group header
-    .categoryRow_f04d06 {
+    .categoryRow_e4503a {
         --text-muted: #{$black};
 
-        .checkbox_f6cde8 {
+        .checkbox_f525d3 {
             background: $black !important;
             border: none;
         }
     }
 
     // Channel
-    .channelRow_f04d06 {
+    .channelRow_e4503a {
         @include box.sync;
         border-top-width: 0;
         border-bottom-width: 0;
 
-        &.firstChannel_f04d06 {
+        &.firstChannel_e4503a {
             border-top-width: 4px;
         }
 
-        &.lastChannel_f04d06 {
+        &.lastChannel_e4503a {
             border-bottom-width: 4px;
         }
     }
 
     // Separators
-    .separator_f04d06 {
+    .separator_e4503a {
         display: none;
     }
 }
 
 // Server shop
-.content_cac32e {
+.content__49668 {
     @include box.sync;
     margin: 16px;
     padding: 0;
     padding-right: 0 !important;
 
     // Box for some reason
-    .contentContainer_cac32e {
+    .contentContainer__49668 {
         width: auto;
     }
 
     // Banner
-    .container_e1e1a4 {
+    .container_adb50a {
         background: unset;
         box-shadow: none;
         border: none;
 
-        .coverImageContainer_e1e1a4 {
+        .coverImageContainer_adb50a {
             width: unset;
         }
     }
 
     // Support options
-    .container_ff1414 {
+    .container_d804ff {
         padding: 16px;
 
         // Item
-        .tab_ff1414 {
+        .tab_d804ff {
             @include box.default;
             box-shadow: none;
 
-            &.selected_ff1414 {
+            &.selected_d804ff {
                 @include box.highlight;
                 box-shadow: none;
             }
@@ -162,12 +162,12 @@
         }
     }
 
-    .tabContainer_cac32e {
+    .tabContainer__49668 {
         border-top: 0;
     }
 
     // Perk card
-    .cardContainerWithoutTopIndicator_ecba8f {
+    .cardContainerWithoutTopIndicator__3efc4 {
         @include box.default;
 
         --header-primary: #{$black};
@@ -177,13 +177,13 @@
         --text-muted: #{$black};
         --text-normal: #{$black};
 
-        .tierInfoContainer_ecba8f,
-        .subscriptionPerks_ecba8f {
+        .tierInfoContainer__3efc4,
+        .subscriptionPerks__3efc4 {
             background: unset;
         }
 
         // Preview
-        .roleMessagePreview_ecba8f {
+        .roleMessagePreview__3efc4 {
             @include box.sync;
             --text-normal: #{$foreground};
         }

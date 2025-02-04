@@ -3,8 +3,8 @@
 // Scrollbars
 
 // Thick scrollbar
-.auto_c49869,
-.auto_eed6a8 {
+.auto_d125d2,
+.auto__99f8c {
     &::-webkit-scrollbar {
         width: $size-border * 2;
         height: $size-border * 2;
@@ -20,13 +20,13 @@
     }
 }
 
-.scroller_e2e187::-webkit-scrollbar-track {
+.scroller__36d07::-webkit-scrollbar-track {
     margin-bottom: 0;
 }
 
 // Thin scrollbar
-.thin_eed6a8,
-.thin_c49869 {
+.thin__99f8c,
+.thin_d125d2 {
     &::-webkit-scrollbar {
         width: $size-border;
         height: $size-border;

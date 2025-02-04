@@ -4,7 +4,7 @@
 // Chat
 
 // Header bar (eg. this channel is not on your channel list)
-.chatHeaderBar_efb691 {
+.chatHeaderBar_dc83f5 {
     @include box.highlight($BG-COLOR: $background);
 
     &::after {
@@ -13,55 +13,55 @@
 }
 
 // Chat main panel
-.chatContent_a7d72e {
+.chatContent_f75fb0 {
     gap: 16px;
     background: unset;
 
     // Chat
-    .messagesWrapper_e2e187 {
+    .messagesWrapper__36d07 {
         @include box.sync;
     }
 
     // Bars
-    .newMessagesBar_cf58b5,
-    .jumpToPresentBar_cf58b5 {
+    .newMessagesBar__0f481,
+    .jumpToPresentBar__0f481 {
         background: $dark;
     }
 }
 
 // Message area
-.form_a7d72e {
+.form_f75fb0 {
     padding: 0;
 
     &::before {
         display: none;
     }
 
-    .channelTextArea_a7d72e {
+    .channelTextArea_f75fb0 {
         @include box.sync;
         box-sizing: border-box;
 
-        &.channelTextAreaDisabled_d0696b {
+        &.channelTextAreaDisabled__74017 {
             background: $dark;
         }
 
-        .themedBackground_d0696b {
+        .themedBackground__74017 {
             background: unset;
         }
     }
 
     // Accessories
-    .base_d7ebeb {
+    .base_b88801 {
         color: $black;
         inset: auto 0 0;
 
         // Typing
-        .dots_ce0450.themed_ce0450 {
+        .dots__5ad89.themed__5ad89 {
             color: $black;
         }
 
         // Slow mode
-        .cooldownWrapper_d7ebeb {
+        .cooldownWrapper_b21699 {
             color: $black !important;
         }
     }

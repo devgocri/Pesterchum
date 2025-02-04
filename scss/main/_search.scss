@@ -3,25 +3,25 @@
 @use "../top/sticky";
 
 // Search results
-.searchResultsWrap_c2b47d {
+.searchResultsWrap_a9e706 {
     @include box.highlight;
 
     // Header
-    .searchHeader_b7c924 {
+    .searchHeader_f3b986 {
         background: $medium;
         --header-primary: #{$black};
     }
 
     // Results
-    .scroller_c2b47d {
+    .scroller_a9e706 {
         padding: 0 10px;
         padding-right: 10px - $size-border !important;
     }
 
     // Channel
-    .searchResultGroup_a9e225 {
+    .searchResultGroup_c68065 {
         // Name
-        .channelNameContainer_a9e225 {
+        .channelNameContainer_c68065 {
             // Channel name
             --header-primary: #{$black};
             // Parent channel name
@@ -29,24 +29,24 @@
         }
 
         // Content
-        .searchResult_ddc613 {
+        .searchResult__02a39 {
             @include box.sync;
             @include sticky.box($BOTTOM: 54px);
         }
 
         // Jump button
-        .buttonsContainer_ddc613 {
+        .buttonsContainer__02a39 {
             display: none;
         }
     }
-    &:not(:has(.pageControlContainer_b48941)) {
-        .searchResult_ddc613::after {
+    &:not(:has(.pageControlContainer_c15210)) {
+        .searchResult__02a39::after {
             bottom: 20px;
         }
     }
 
     // Navigation
-    .container_de9d09 {
+    .container__3f123 {
         position: sticky;
         bottom: 0;
         background: $medium;
@@ -58,10 +58,10 @@
         --interactive-hover: #{$black};
 
         // Buttons
-        .pageButton_b48941 {
+        .pageButton_c15210 {
             @include box.default;
 
-            &.activeButton_b48941 {
+            &.activeButton_c15210 {
                 border-color: $light;
                 color: $black;
             }

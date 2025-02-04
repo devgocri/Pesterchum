@@ -3,15 +3,17 @@
 
 // Tabs
 
-.item_a0.item_a0.item_a0.item_a0 {
+.item_b3f026.item_b3f026.item_b3f026.item_b3f026 {
     &,
     &:hover {
         @include box.default;
         background: $medium;
         color: $black;
+        padding: 0 5px;
     }
-    &.selected_a0 {
+    &.selected_b3f026 {
         border-color: $light;
         background: $medium;
+        padding: 0 5px;
     }
 }

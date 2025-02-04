@@ -1,7 +1,7 @@
 @use "../top/vars" as *;
 
 // Header bar
-.container_e44302:is(.title_a7d72e, .themed_e44302) {
+.container__9293f:is(.title_f75fb0, .themed__9293f) {
     background: unset;
 
     // No shadow
@@ -9,33 +9,33 @@
         display: none;
     }
 
-    .children_e44302::after {
+    .children__9293f::after {
         background: linear-gradient(90deg, transparent, var(--message-background-alt));
     }
 
-    .title_e44302,
-    .topic_bf3bbb,
+    .title__9293f,
+    .topic__6ec1a,
     .nicknames__12efb {
         color: $black;
     }
 
-    .divider_e44302 {
+    .divider__9293f {
         display: none;
     }
 
-    .searchBar_a46bef,
-    .searchBar_e0264e {
+    .searchBar__97492,
+    .searchBar__3fb48 {
         background: $background;
     }
 
     // Channel icon
-    .icon_e44302,
-    .clickable_e44302 .icon_e44302,
-    .clickable_e44302:hover .icon_e44302,
-    .selected_e44302 .icon_e44302 {
+    .icon__9293f,
+    .clickable__9293f .icon__9293f,
+    .clickable__9293f:hover .icon__9293f,
+    .selected__9293f .icon__9293f {
         color: $black;
     }
-    .iconWrapper_e44302 path {
+    .iconWrapper__9293f path {
         fill: $black;
     }
 }
